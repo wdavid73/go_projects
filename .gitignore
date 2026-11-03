@@ -1,0 +1,17 @@
+# Binarios
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Entorno
+.env
+.env.*
+
+# Editor / SO
+.idea/
+.vscode/
+.DS_Store

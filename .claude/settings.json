@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit(**/NOTES.md)",
+      "Write(**/NOTES.md)",
+      "Edit(ROADMAP.md)",
+      "Bash(go test:*)",
+      "Bash(go vet:*)",
+      "Bash(go build:*)",
+      "Bash(go version)",
+      "Bash(go mod init:*)",
+      "Bash(gofmt -l:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ],
+    "deny": [
+      "Edit(**/*.go)",
+      "Write(**/*.go)",
+      "MultiEdit(**/*.go)"
+    ]
+  }
+}
